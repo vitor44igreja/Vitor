@@ -1,0 +1,89 @@
+.pagina-inicio{
+    background-color:#F5F6FA ;
+    height: 100vh;
+
+    h1{
+        margin-left: 50px;
+        margin-top: 50px;
+
+        color: #383131;
+        font-family: 'Roboto';
+    }
+
+
+    .secao{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 100px;
+        margin: 50px;
+
+        h4, p, a{
+            text-decoration: none;
+             color: rgb(0, 0, 0);
+        }
+    }
+
+    
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        align-items: center;
+        justify-content: center;
+
+        font-size: 14px;
+        font-family: 'Roboto';
+
+        width: 215px;
+        height: 158px;
+        
+        border-radius: 12px;
+
+        background-color: rgb(255, 255, 255);
+        .bloco{
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+        }
+        
+        .dourado{
+            background-color: #FFCE37;
+        }
+
+        .verde{
+            background-color: #B3FF37;
+        }
+
+        .azul{
+            background-color: #37FFF3;
+        }
+        .roxo{
+            background-color: #6533B7
+        }
+        .marromclaro{
+            background-color: #B75333
+        }
+        .azulclaro{
+            background-color: #37B7FF;
+        }
+        .rosa{
+            background-color: #CB37FF;
+        }
+        .laranja{
+            background-color: #FF5B37;
+        }
+        .verdeagua{
+            background-color: #37FFAB;
+        }
+        .preto{
+            background-color: #151515;
+        }
+        .cinza{
+            background-color: #D0D0D0;
+        }
+    }
+
+}

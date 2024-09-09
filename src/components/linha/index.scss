@@ -1,0 +1,20 @@
+.titulo-comp {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px;
+    font-family: "Roboto";
+
+    gap: 10px;
+    
+    .voltar{
+        display: flex;
+        gap: 20px;
+    }
+
+    .reta{
+        border: none;
+        
+        height: 4px;
+    }
+}

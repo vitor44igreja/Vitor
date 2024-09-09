@@ -1,0 +1,64 @@
+.pagina-ex11{
+    background-color: #F5F6FA;
+    height: 100%;
+
+
+    .secao {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px;
+
+        font-family: "Roboto";
+
+        align-items: center;
+        justify-content: center;
+    
+        .tabuada{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            background: #ffffff;
+            text-align: left;
+            padding: 20px;
+            //align-items:center;
+            justify-content: center;
+            width: 476px;
+            height: 187px;
+            border-radius: 12px;
+            box-shadow: 5px 5px 15px 1px #c0c0c0;
+
+            button{
+                position: relative;
+                left: 197px;
+                width: 216px;
+                height: 50px;
+                border-radius: 12px;
+                border: none;
+                color: #F5F6FA;
+                background-color: #6278F7;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            input{
+                font-size: 16px;
+                font-family: 'Roboto';
+                padding: 0px 10px;
+                width: 414px;
+                height: 41px;
+                border-radius: 12px;
+                border: 1px solid #A5A5A5 ;
+                color: #383131;
+            }
+        }
+ 
+    }
+}
+.res{
+    width: 150px;
+    border-radius: 12px;
+    gap: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'roboto';
+    gap: 2px;
+}
